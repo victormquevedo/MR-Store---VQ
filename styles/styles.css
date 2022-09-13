@@ -19,8 +19,39 @@ h1{
 }
 
 .cabecera{
-    background-color: darkmagenta;
     color: white;
+    animation-name: efectouno;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+@keyframes efectouno{
+    0%{
+        background-color:darkmagenta;
+    }
+
+    25%{
+        background-color: blueviolet;
+    }
+
+    50%{
+        background-color: pink;
+    }
+
+    75%{
+        background-color: fuchsia;
+    }
+    
+    100%{
+        background-color: darkmagenta
+    }
+}
+
+.efectoCabecera{
+    background-color: darkmagenta;
+
 }
 
 nav{
