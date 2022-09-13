@@ -130,7 +130,7 @@ nav ul{
      height: 100vh;
 
 }
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width: 1200px) {
 
     #grilla{
     grid-template-columns: 1fr;
