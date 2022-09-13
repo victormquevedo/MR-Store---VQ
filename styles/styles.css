@@ -39,6 +39,13 @@ nav{
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.navLinks:hover{
+    padding: 20px;
+    background-color: black;
+    color:white
 }
 
 
