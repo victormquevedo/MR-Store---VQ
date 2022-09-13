@@ -116,6 +116,15 @@ nav ul{
     padding-top: 10px;
 }
 
+.imagenGaleria{
+    transition: all 1s;
+}
+
+.imagenGaleria:hover{
+    width: 780px;
+    height: 780px;
+}
+
 .tabla{
     display: flex;
     justify-content: center;
