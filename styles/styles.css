@@ -117,12 +117,15 @@ h1{
     background-color: grey;
     border-style: solid;
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card{
     background-color: black;
     color: white;
     margin: 20px;
+    text-align: center;
 }
 
 .card-title{
@@ -130,7 +133,13 @@ h1{
     font-weight: bold;
 }
 
-/* .pieDePagina{
+.btn{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+ .pieDePagina{
     grid-area: footer;
     background-color: black;
     color: white;
@@ -146,8 +155,9 @@ h1{
 .pieDePagina__link{
    background-color: black;
    color: white;
-} */
+}
 
+/*
 .formulario{
     text-align: center;
     font-weight: bold;
