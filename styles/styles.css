@@ -122,9 +122,6 @@ h1{
     padding: 0px;
 }
 
-.galeria{
-}
-
 .card{
     background-color: black;
     color: white;
@@ -195,16 +192,17 @@ h2{
     margin-right: 20px;
     padding-top: 10px;
 }
-/*
+
 .imagenGaleria{
     transition: all 1s;
+    margin: 10px;
 }
 
 .imagenGaleria:hover{
-    width: 780px;
-    height: 780px;
+    width: 315px;
+    height: 315px;
 }
-*/
+
 .tabla{
     display: flex;
     justify-content: center;
