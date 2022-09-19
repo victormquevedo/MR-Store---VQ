@@ -212,9 +212,7 @@ h3{
 header{
     grid-area: cabecera;
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     padding: 10px;
 }
 
@@ -345,7 +343,7 @@ header{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 10px;
 }
 
