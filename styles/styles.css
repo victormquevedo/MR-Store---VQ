@@ -4,7 +4,6 @@
 }
 
 header {
-  grid-area: cabecera;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,19 +11,16 @@ header {
   justify-content: space-evenly;
   padding: 20px;
 }
-header .cabecera {
-  color: white;
-}
-header .cabecera h1 {
+header h1 {
   text-decoration: underline;
   font-size: 50px;
 }
-header .cabecera h1 nav {
+header h1 nav {
   border-style: solid;
   border-radius: 5px;
   border-color: fuchsia;
 }
-header .cabecera h1 nav ul {
+header h1 nav ul {
   background-color: blueviolet;
   display: flex;
   flex-direction: row;
@@ -35,7 +31,11 @@ header .cabecera h1 nav ul {
   padding: 30px;
   border-style: none;
 }
-header .cabecera h1 nav ul a {
+
+.cabecera {
+  color: white;
+}
+.cabecera .navLinks {
   background-color: rgb(222, 149, 224);
   padding: 8px;
   border-style: solid;
@@ -46,7 +46,7 @@ header .cabecera h1 nav ul a {
   text-decoration: none;
   transition: all 0.5s;
 }
-header .cabecera h1 nav ul a:hover {
+.cabecera .navLinks:hover {
   padding: 20px;
   background-color: black;
   color: white;
