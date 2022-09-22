@@ -1,57 +1,39 @@
-header{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.cabecera{
+    background-color: $backgroundCabecera;
+    color:$colorCabecera;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 20px;
-        h1{
-            text-decoration: underline;
-            font-size: 50px;
-            nav{
-                border-style: solid;
-                border-radius: 05px;
-                border-color: fuchsia;
-                ul{
-                    background-color: blueviolet;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    width: 900px;
-                    list-style: none;
-                    margin: 0%;
-                    padding: 30px;
-                    border-style: none;
-                       
-                        }
-
-                        }
-                
-                }
-            
-            }
-      
-
-
-    
-
-    
-    .cabecera{
-        color: white;
-        .navLinks{
-            background-color: rgb(222, 149, 224);
+    padding: 10px;
+    h1{
+        text-decoration: underline;
+        font-size: $fontH1;
+    }
+    ul{
+        background-color:$backgroundUl;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: $widthUl;
+        list-style: none;
+        margin: 0%;
+        padding: $paddingUl;
+    }
+    li{
+        a{
             padding: 08px;
-            border-style: solid;
-            border-radius: 05px;
-            border-color: fuchsia;
+            background-color: blueviolet;
+            color: $colorLi ;
             font-weight: bold;
-            font-size: 25px;
             text-decoration: none;
             transition: all 0.5s;
             &:hover{
-                padding: 20px;
                 background-color: black;
-                color:white
+                font-size: $fontHover;
+                padding: 20px;
+                color: white;
             }
-        } 
+        }
     }
+
+}
