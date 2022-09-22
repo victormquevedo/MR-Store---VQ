@@ -1,0 +1,17 @@
+footer{
+    text-align: center;
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px;
+    .pieDePagina__link{
+        background-color: black;
+        color: white;
+     }
+}
+

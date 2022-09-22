@@ -1,0 +1,47 @@
+.principal{
+    grid-area: main;
+    background-color: grey;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.principal__preview{
+    border: none;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 05px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    .preview__contenido{
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    h3{
+        text-decoration: underline;
+    }
+    .boton{
+        background-color: blueviolet;
+        color: pink;
+        border: solid;
+        border-radius: 2px;
+        padding: 10px;
+        font-weight: bold;
+    }
+}
+
+
+
+

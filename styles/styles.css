@@ -65,19 +65,16 @@
   padding: 30px;
   margin: 10px;
 }
-
-h3 {
-  text-decoration: underline;
-}
-
-.preview__contenido {
+.principal__preview .preview__contenido {
   background-color: black;
   color: white;
   font-size: 22px;
   text-align: center;
 }
-
-.boton {
+.principal__preview h3 {
+  text-decoration: underline;
+}
+.principal__preview .boton {
   background-color: blueviolet;
   color: pink;
   border: solid;
@@ -86,7 +83,7 @@ h3 {
   font-weight: bold;
 }
 
-.pieDePagina {
+footer {
   text-align: center;
   grid-area: footer;
   background-color: black;
@@ -98,8 +95,7 @@ h3 {
   padding: 20px;
   margin: 0px;
 }
-
-.pieDePagina__link {
+footer .pieDePagina__link {
   background-color: black;
   color: white;
 }
@@ -160,53 +156,63 @@ h2 {
   text-decoration: underline;
 }
 
-#grilla {
-  display: grid;
-  grid-template-areas: "cabecera" "main" "footer";
-  grid-template-rows: 1fr 3fr 1fr;
-  grid-template-columns: auto;
-  grid-row-gap: 20px;
-  height: 100vh;
+/* #grilla{
+    display: grid;
+    grid-template-areas: 
+     "cabecera"
+     "main"
+     "footer";
+     grid-template-rows: 1fr 3fr 1fr;
+     grid-template-columns: auto;
+     grid-row-gap: 20px;
+     height: 100vh;
+
 }
 
 @media screen and (max-width: 576px) {
-  #grilla {
+
+    #grilla{
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-row-gap: 10px;
     height: 100vh;
-  }
-  header {
+}   
+header{
     grid-area: cabecera;
-    display: flex;
+    display:flex;
     flex-direction: column;
     padding: 10px;
-  }
-  .logo {
+}
+
+.logo{
     width: 60px;
     height: 60px;
-  }
-  h1 {
+}
+h1{
     text-decoration: underline;
     font-size: 18px;
     margin-left: 10px;
-  }
-  .cabecera {
+}
+
+.cabecera{
     background-color: darkmagenta;
     color: white;
-  }
-  .navLinks {
+}
+
+
+.navLinks{
     background-color: rgb(222, 149, 224);
     display: flex;
     flex-wrap: wrap;
-    padding: 2px;
+    padding: 02px;
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;
     border-style: none;
-    padding: 3px;
-  }
-  nav ul {
+    padding: 03px;
+}
+
+nav ul{
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
@@ -215,106 +221,124 @@ h2 {
     width: 250px;
     list-style: none;
     margin: 0%;
-    padding: 5px;
+    padding: 05px;
     border-style: none;
     height: 55px;
-  }
-  .principal {
+
+}
+
+.principal{
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .principal__preview {
+}
+
+.principal__preview{
     border: none;
     background-color: black;
     color: white;
     border-style: solid;
     border-color: white;
-    border-radius: 5px;
+    border-radius: 05px;
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     margin: 10px;
-  }
-  h3 {
+}
+
+h3{
     text-decoration: underline;
-  }
-  .preview__contenido {
+}
+
+.preview__contenido{
     background-color: black;
     color: white;
     font-size: 22px;
     text-align: center;
-  }
-  .boton {
+}
+
+.boton{
     background-color: blueviolet;
     color: pink;
     border: solid;
     border-radius: 2px;
     padding: 10px;
     font-weight: bold;
-  }
-  .pieDePagina {
-    font-size: 15px;
+}
+
+.pieDePagina{
+    font-size: 15px ;
     padding: 10px;
-  }
-  .biografia {
+}
+
+.biografia{
     font-size: 20px;
-  }
-  .imagenGaleria {
+}
+
+.imagenGaleria{
     width: 240px;
     height: 240px;
-  }
-  .formulario {
+}
+
+.formulario{
     font-size: 13px;
-  }
-  .tabla {
-    font-size: 9px;
+}
+
+.tabla{
+    font-size: 09px;
     padding: 0px;
     margin: 0px;
-  }
 }
-@media screen and (min-width: 577px) and (max-width: 1199px) {
-  #grilla {
+}
+
+@media screen and (min-width:577px) and (max-width: 1199px) {
+
+    #grilla{
     grid-template-columns: 2fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-row-gap: 10px;
     height: 100vh;
-  }
-  header {
+}   
+header{
     grid-area: cabecera;
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
-  }
-  .logo {
+}
+
+.logo{
     width: 60px;
     height: 60px;
-  }
-  h1 {
+}
+h1{
     text-decoration: underline;
     font-size: 18px;
     margin-left: 10px;
-  }
-  .cabecera {
+}
+
+.cabecera{
     background-color: darkmagenta;
     color: white;
-  }
-  .navLinks {
+}
+
+
+.navLinks{
     background-color: rgb(222, 149, 224);
     display: flex;
     flex-wrap: wrap;
-    padding: 2px;
+    padding: 02px;
     font-weight: bold;
     font-size: 12px;
     text-decoration: none;
     border-style: none;
-    padding: 3px;
-  }
-  nav ul {
+    padding: 03px;
+}
+
+nav ul{
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
@@ -323,70 +347,83 @@ h2 {
     width: 250px;
     list-style: none;
     margin: 0%;
-    padding: 5px;
+    padding: 05px;
     border-style: none;
     height: 55px;
-  }
-  .principal {
+
+}
+
+.principal{
     grid-area: main;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  .principal__preview {
+}
+
+.principal__preview{
     border: none;
     background-color: black;
     color: white;
     border-style: solid;
     border-color: white;
-    border-radius: 5px;
+    border-radius: 05px;
     width: 307px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-  }
-  .preview__imagen {
+}
+
+.preview__imagen{
     width: 150px;
     height: 150px;
-  }
-  .preview__contenido {
+}
+
+
+.preview__contenido{
     background-color: black;
     color: white;
     font-size: 15px;
     text-align: center;
-  }
-  .boton {
+}
+
+.boton{
     background-color: blueviolet;
     color: pink;
     border: solid;
     border-radius: 2px;
     padding: 10px;
     font-weight: bold;
-  }
-  .pieDePagina {
-    font-size: 15px;
+}
+
+
+.pieDePagina{
+    font-size: 15px ;
     padding: 10px;
-  }
-  .biografia {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: none;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .imagenGaleria {
+}
+
+.biografia{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: none;
+        font-size: 30px;
+        font-weight: bold;
+}
+
+.imagenGaleria{
     width: 340px;
     height: 340px;
-  }
-  .formulario {
+}
+
+.formulario{
     font-size: 13px;
-  }
-  .tabla {
+}
+
+.tabla{
     font-size: 15px;
     padding: 10px;
     margin: 10px;
-  }
-}/*# sourceMappingURL=styles.css.map */
+}
+} *//*# sourceMappingURL=styles.css.map */
