@@ -28,18 +28,13 @@
         font-size: 22px;
         text-align: center;
     }
-    
-    h3{
+     h3{
         text-decoration: underline;
-    }
-    .boton{
-        background-color: blueviolet;
-        color: pink;
-        border: solid;
-        border-radius: 2px;
-        padding: 10px;
-        font-weight: bold;
-    }
+     }
+     .boton{
+        @extend %botonDefault;
+
+     }
 }
 
 

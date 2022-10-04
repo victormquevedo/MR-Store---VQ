@@ -1,16 +1,16 @@
-.cabecera{
-    background-color: $backgroundCabecera;
-    color:$colorCabecera;
+header{
+    background-color:map-get($colors, backgroundCabecera);
+    color:map-get($colors, colorCabecera );
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     h1{
         text-decoration: underline;
-        font-size: $fontH1;
+        font-size: map-get($sizes, fontH1);
     }
     ul{
-        background-color:$backgroundUl;
+        background-color:map-get($colors, backgroundUl);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -23,7 +23,7 @@
         a{
             padding: 08px;
             background-color: blueviolet;
-            color: $colorLi ;
+            color:map-get($colors, colorLi);
             font-weight: bold;
             text-decoration: none;
             transition: all 0.5s;

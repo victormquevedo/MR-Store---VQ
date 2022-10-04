@@ -3,12 +3,12 @@
     background-color: pink;
    
 }
-
-@import "./partials/colors.scss";
-@import "./partials/sizes";
+@import "./partials/maps";
+@import "./partials/extends";
 @import "./partials/header";
 @import "./partials/main";
 @import "./partials/foooter";
+@import "./partials/buttons";
 
 .formulario,
 fieldset,
