@@ -1,8 +1,5 @@
 .botonVerde{
-    @extend %botonDefault;
-    background-color: rgb(19, 87, 19);
-    color: greenyellow
-    
+   @include boton($backBoton: green, $colorBoton: rgb(74, 233, 74));
 }
 
 .botonRosa{
@@ -12,9 +9,7 @@
 }
 
 .botonAzul{
-   @extend %botonDefault;
-   background-color: blue;
-   color: skyblue;
+   @include boton ($backBoton: blue, $colorBoton: skyblue);
 }
 
 .botonRojo{

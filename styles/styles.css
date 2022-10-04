@@ -4,8 +4,14 @@
 }
 
 .botonVerde {
-  background-color: rgb(19, 87, 19);
-  color: greenyellow;
+  border: solid;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: green;
+  color: rgb(74, 233, 74);
 }
 
 .botonRosa {
@@ -14,6 +20,12 @@
 }
 
 .botonAzul {
+  border: solid;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+  font-style: italic;
   background-color: blue;
   color: skyblue;
 }
@@ -23,7 +35,7 @@
   color: rgb(238, 121, 121);
 }
 
-.principal__preview .boton, .botonVerde, .botonRosa, .botonAzul, .botonRojo {
+.principal__preview .boton, .botonRosa, .botonRojo {
   border: solid;
   padding: 10px;
   font-weight: bold;

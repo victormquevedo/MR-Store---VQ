@@ -3,6 +3,7 @@
     background-color: pink; 
 }
 
+@import "./partials/mixins";
 @import "./partials/botones";
 @import "./partials/extends";
 @import "./partials/maps";

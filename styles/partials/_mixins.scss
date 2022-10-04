@@ -1,0 +1,10 @@
+@mixin boton($backBoton, $colorBoton) {
+        border: solid;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 23px;
+        text-decoration: underline;
+        font-style: italic;
+        background-color: $backBoton;
+        color: $colorBoton;
+    }
