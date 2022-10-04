@@ -3,6 +3,35 @@
   background-color: pink;
 }
 
+.botonVerde {
+  background-color: rgb(19, 87, 19);
+  color: greenyellow;
+}
+
+.botonRosa {
+  background-color: rgb(228, 34, 218);
+  color: rgb(246, 172, 248);
+}
+
+.botonAzul {
+  background-color: blue;
+  color: skyblue;
+}
+
+.botonRojo {
+  background-color: rgb(245, 16, 16);
+  color: rgb(238, 121, 121);
+}
+
+.principal__preview .boton, .botonVerde, .botonRosa, .botonAzul, .botonRojo {
+  border: solid;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .cabecera {
   background-color: blueviolet;
   color: white;
@@ -74,15 +103,6 @@
 .principal__preview h3 {
   text-decoration: underline;
 }
-.principal__preview .boton {
-  background-color: blueviolet;
-  color: pink;
-  border: solid;
-  border-radius: 2px;
-  padding: 10px;
-  font-weight: bold;
-}
-
 footer {
   text-align: center;
   grid-area: footer;

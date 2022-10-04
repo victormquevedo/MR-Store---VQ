@@ -1,14 +1,16 @@
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: pink;
-   
+    background-color: pink; 
 }
-@import "./partials/maps";
+
+@import "./partials/botones";
 @import "./partials/extends";
+@import "./partials/maps";
 @import "./partials/header";
 @import "./partials/main";
 @import "./partials/foooter";
-@import "./partials/buttons";
+
+
 
 .formulario,
 fieldset,
