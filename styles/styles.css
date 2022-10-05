@@ -67,6 +67,30 @@ textarea {
   margin: 12px;
 }
 
+.tabla {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-weight: bold;
+  padding: 60px;
+  font-size: 30px;
+}
+
+.biografia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.biografia h2 {
+  text-decoration: underline;
+  border: none;
+}
+.biografia .parrafo {
+  border: none;
+}
+
 .principal .principal__preview .boton, .botonRosa, .botonRojo {
   border: solid;
   padding: 10px;
@@ -161,28 +185,6 @@ footer {
 footer .pieDePagina__link {
   background-color: black;
   color: white;
-}
-
-.tabla {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  font-weight: bold;
-  padding: 60px;
-  font-size: 30px;
-}
-
-.biografia {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-h2 {
-  text-decoration: underline;
 }
 
 #grilla {

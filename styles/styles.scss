@@ -7,6 +7,8 @@
 @import "./partials/botones";
 @import "./partials/galeria";
 @import "./partials/formulario";
+@import "./partials/tabla";
+@import "./partials/biografia";
 @import "./partials/extends";
 @import "./partials/maps";
 @import "./partials/header";
@@ -14,29 +16,6 @@
 @import "./partials/foooter";
 
 
-
-
-.tabla{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    font-weight: bold;
-    padding: 60px;
-    font-size: 30px;
-}
-
-.biografia{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: none;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-h2{
-    text-decoration: underline;
-}
 
  #grilla{
     display: grid;
