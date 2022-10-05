@@ -1,4 +1,5 @@
 .cabecera{
+    grid-area: cabecera;
     background-color: map-get($colors, backgroundCabecera);
     color:map-get($colors, colorCabecera );
     display: flex;
@@ -35,5 +36,5 @@
             }
         }
     }
-
+ 
 }
