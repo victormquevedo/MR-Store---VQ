@@ -6,3 +6,11 @@
     padding: 60px;
     font-size: 30px;
 }
+
+@media screen and (max-width: 580px) {
+    .tabla{
+        font-size: 18px;
+        padding:10px;
+        margin: 0%;
+    }
+}

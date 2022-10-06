@@ -13,3 +13,17 @@ textarea{
     font-size: 20px;
     margin: 12px;
 }
+
+@media screen and (max-width:580px) {
+
+    .formulario,
+fieldset,
+label,
+input,
+legend,
+select,
+option,
+textarea{
+    font-size: 15px;
+}
+}
