@@ -1,6 +1,5 @@
 .principalGaleria{
     grid-area: main;
-    width: 100%;
     background-color: grey;
     border-style: solid;
     border-radius: 20px;
@@ -19,8 +18,8 @@
           margin: 20px;
           transition: all 1s;
           &:hover{
-            width: 500px;
-            height: 500px;
+            width: 600px;
+            height: 600px;
         }
     }
   }
