@@ -14,7 +14,7 @@ textarea{
     margin: 12px;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (min-width: 320px) and (max-width:580px) {
 
     .formulario,
 fieldset,

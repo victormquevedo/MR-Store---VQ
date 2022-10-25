@@ -29,7 +29,7 @@
      height: 100vh;
 }
 
-@media screen and (max-width: 580px){
+@media screen and (min-width: 320px) and (max-width: 580px){
 
     #grilla{
         display: grid;
