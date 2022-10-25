@@ -1,6 +1,5 @@
 .cabecera{
     grid-area: cabecera;
-    background-color: map-get($colors, backgroundCabecera);
     color:map-get($colors, colorCabecera );
     display: flex;
     justify-content: space-around;
@@ -9,6 +8,7 @@
     h1{
         text-decoration: underline;
         font-size: map-get($sizes, fontH1 );
+        color: fuchsia;
     }
     ul{
         background-color:map-get($colors, backgroundUl);
@@ -23,7 +23,7 @@
     li{
         a{
             padding: 08px;
-            background-color: blueviolet;
+            background-color: white;
             color: map-get($colors, colorLi) ;
             font-weight: bold;
             text-decoration: none;
@@ -31,7 +31,7 @@
             &:hover{
                 background-color: black;
                 font-size: map-get($sizes, fontHover );
-                padding: 20px;
+                padding: 15px;
                 color: white;
             }
         }
@@ -44,7 +44,7 @@
     .cabecera{
         display: flex;
         flex-direction: column;
-        width: 315px;
+        width: 100%;
         .logo{
             width: 100px;
             height: 100px; 
@@ -53,10 +53,11 @@
                 font-size: 15px
             }
             ul{
-                padding: 10px;
+                padding: 04px;
                 flex-wrap: wrap;
                 justify-content: space-around;
-                width: 300px;
+                width: 280px;
+                margin: 0px;
                 li{
                     margin: 10px;
                     font-size: 17px;

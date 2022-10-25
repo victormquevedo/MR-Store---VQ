@@ -1,8 +1,5 @@
 .principalGaleria{
     grid-area: main;
-    background-color: grey;
-    border-style: solid;
-    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -32,8 +29,8 @@
     }
     
     .imagenGaleria{
-        width: 315px;
-        height: 315px;
+        width: 250px;
+        height: 250px;
     }
 }
 
